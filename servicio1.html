@@ -1,0 +1,715 @@
+<!doctype html>
+
+<html class="light" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>MindPaz - Servicios Psicológicos Profesionales</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#137fec",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              display: ["Manrope"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased"
+  >
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+      <!-- Navigation -->
+      <header
+        class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800"
+      >
+        <div
+          class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between"
+        >
+          <div class="flex items-center gap-2 text-primary">
+            <span class="material-symbols-outlined text-3xl">psychology</span>
+            <span class="text-xl font-extrabold tracking-tight">MindPaz</span>
+          </div>
+          <nav class="hidden md:flex items-center gap-8">
+            <a
+              class="text-sm font-semibold hover:text-primary transition-colors"
+              href="#metodo"
+              >Nuestro Método</a
+            >
+            <a
+              class="text-sm font-semibold hover:text-primary transition-colors"
+              href="#testimonios"
+              >Testimonios</a
+            >
+            <a
+              class="text-sm font-semibold hover:text-primary transition-colors"
+              href="#precios"
+              >Tarifas</a
+            >
+            <a
+              class="text-sm font-semibold hover:text-primary transition-colors"
+              href="#faq"
+              >FAQ</a
+            >
+          </nav>
+          <a
+            class="inline-flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white shadow-lg hover:shadow-primary/30 transition-all hover:scale-105"
+            href="#contacto"
+          >
+            Reservar Cita
+          </a>
+        </div>
+      </header>
+      <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden py-20 lg:py-32">
+          <div
+            class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center"
+          >
+            <div class="flex flex-col gap-8">
+              <div
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider w-fit"
+              >
+                <span class="material-symbols-outlined text-sm">verified</span>
+                Psicología Clínica Colegiada
+              </div>
+              <h1
+                class="text-5xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-slate-900 dark:text-slate-50"
+              >
+                Recupera tu <span class="text-primary">paz mental</span> desde
+                hoy
+              </h1>
+              <p class="text-lg text-slate-600 dark:text-slate-400 max-w-xl">
+                Terapia personalizada online y presencial para superar la
+                ansiedad y el estrés. Encuentra el equilibrio que necesitas con
+                apoyo profesional científico y empático.
+              </p>
+              <div class="flex flex-wrap gap-4">
+                <a
+                  class="px-8 py-4 bg-primary text-white font-bold rounded-xl shadow-xl shadow-primary/20 hover:bg-primary/90 transition-all text-lg"
+                  href="#contacto"
+                >
+                  Comenzar ahora
+                </a>
+                <div
+                  class="flex items-center gap-3 px-6 py-4 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700"
+                >
+                  <span class="material-symbols-outlined text-primary"
+                    >calendar_today</span
+                  >
+                  <span class="text-sm font-medium"
+                    >Primera sesión informativa gratis</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <div
+                class="aspect-square rounded-3xl overflow-hidden shadow-2xl bg-slate-200 dark:bg-slate-800"
+                data-alt="Professional smiling female psychologist in office setting"
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuBfpifXayOUm8LH6wpxbsp8rrNz-atBA0ZuzkJDr38_xH309AoHezZBNrXk5yOaePbIdU3vhU1nBxNS7AYYnmPeX2ORDWzwOy4m5QVWbUQSQGuIt1Ba58NNg9xIG-52xT3k30-TuoWEl-HfV6z7pMjUD9guYsxawRomi06i5hL3urCNfzs2QTjkacES31JNYFub0QvgSenCdF2PH0TnSVEF0DQeoCiDGNqdG5pM7F7z67redtLmkudOYBJ77TdFrdFqnv34ePGGILYV&quot;);
+                  background-size: cover;
+                "
+              ></div>
+              <div
+                class="absolute -bottom-6 -left-6 bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-700 max-w-[240px]"
+              >
+                <div class="flex gap-1 text-yellow-400 mb-2">
+                  <span class="material-symbols-outlined fill-1">star</span>
+                  <span class="material-symbols-outlined fill-1">star</span>
+                  <span class="material-symbols-outlined fill-1">star</span>
+                  <span class="material-symbols-outlined fill-1">star</span>
+                  <span class="material-symbols-outlined fill-1">star</span>
+                </div>
+                <p
+                  class="text-sm font-medium italic text-slate-600 dark:text-slate-300"
+                >
+                  "Siento que por fin tengo las herramientas para manejar mi
+                  ansiedad."
+                </p>
+                <p class="text-xs font-bold mt-2">— Carla M., Paciente</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Problem/Solution Section -->
+        <section class="py-24 bg-white dark:bg-slate-900/50" id="metodo">
+          <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+              <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
+                ¿Sientes que el agotamiento te supera?
+              </h2>
+              <p class="text-slate-600 dark:text-slate-400">
+                Identificamos los síntomas que afectan tu bienestar diario y te
+                brindamos las herramientas para transformarlos en fortaleza.
+              </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+              <div
+                class="p-8 rounded-2xl bg-background-light dark:bg-background-dark border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-colors group"
+              >
+                <div
+                  class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all"
+                >
+                  <span class="material-symbols-outlined text-3xl"
+                    >psychology_alt</span
+                  >
+                </div>
+                <h3 class="text-xl font-bold mb-3">Ansiedad y Estrés</h3>
+                <p
+                  class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed"
+                >
+                  Aprende a controlar los pensamientos intrusivos y recupera la
+                  calma en situaciones de presión constante.
+                </p>
+              </div>
+              <div
+                class="p-8 rounded-2xl bg-background-light dark:bg-background-dark border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-colors group"
+              >
+                <div
+                  class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all"
+                >
+                  <span class="material-symbols-outlined text-3xl"
+                    >work_history</span
+                  >
+                </div>
+                <h3 class="text-xl font-bold mb-3">Burnout Laboral</h3>
+                <p
+                  class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed"
+                >
+                  Identifica el agotamiento profesional antes de que sea tarde y
+                  recupera la ilusión por tu carrera.
+                </p>
+              </div>
+              <div
+                class="p-8 rounded-2xl bg-background-light dark:bg-background-dark border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-colors group"
+              >
+                <div
+                  class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all"
+                >
+                  <span class="material-symbols-outlined text-3xl"
+                    >favorite</span
+                  >
+                </div>
+                <h3 class="text-xl font-bold mb-3">Relaciones Sanas</h3>
+                <p
+                  class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed"
+                >
+                  Mejora la comunicación asertiva y el vínculo afectivo con tu
+                  pareja, familia o entorno social.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Social Proof -->
+        <section class="py-24" id="testimonios">
+          <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+              <div class="lg:w-1/2">
+                <h2 class="text-4xl font-extrabold mb-8">
+                  Nuestros pacientes comparten su evolución
+                </h2>
+                <div class="space-y-6">
+                  <div
+                    class="p-6 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700"
+                  >
+                    <div class="flex items-center gap-4 mb-4">
+                      <div
+                        class="w-12 h-12 rounded-full bg-slate-200"
+                        data-alt="Portrait of a female client"
+                        style="
+                          background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAc8FrXNcZb3iY-ILZkTn0Y3I4zOLOaYFkLyGCnGDAJTffCrdqwAb8tRGphbd0nYRmJLc_yeT50iK5rsteQluu6Cr0XbXNNF2rec267rkbKqz4h894BP6iIGvf4mP9PwH7H6_JVMofZ7GjXOapLHf2yuv8eCQwtyYOeVDAYad0mT9SR3JrZs8c3vQOxTQtHBCdysyPvRlGcXOy_VKBukG5U5Z7FmzDcZ4Y88fROVcfr46NU8x6URaaO3Pl4JFftqxQsUv_y_kjEvYFS&quot;);
+                          background-size: cover;
+                        "
+                      ></div>
+                      <div>
+                        <h4 class="font-bold">Elena Rodriguez</h4>
+                        <p class="text-xs text-slate-500">
+                          Superó crisis de ansiedad
+                        </p>
+                      </div>
+                    </div>
+                    <p class="text-slate-600 dark:text-slate-400 italic">
+                      "Llevaba años sintiendo que no podía respirar. En solo 3
+                      meses de terapia cognitiva, mi vida ha dado un giro de 180
+                      grados. Ahora entiendo mis emociones."
+                    </p>
+                  </div>
+                  <div
+                    class="p-6 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700"
+                  >
+                    <div class="flex items-center gap-4 mb-4">
+                      <div
+                        class="w-12 h-12 rounded-full bg-slate-200"
+                        data-alt="Portrait of a male client"
+                        style="
+                          background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuD8awYvvSZIB90J7NbOfxJVY_ofH6wO_CyCNdCu6WxaH5IG2_EnudI1zUlO7aI7C0WjlIlUwh1JdC3gKD9xwtBIJ24F8kwIiu6dTCRY0UTv6SlRoC1dOvbFE5Ao-rhtGWG3A1ZgTqmHLklbbdQl_8XjYFk96DZccLH5VqR2bt4Hvt_9ycDs2SfN7ZB6cey9fedDzvRn4kfq4JclOqqdRgYiam3asZVbwR5mKj9DimpMrG-ucy6uY7chBhaRfG_2nrJTptAlBZ9tF0Sy&quot;);
+                          background-size: cover;
+                        "
+                      ></div>
+                      <div>
+                        <h4 class="font-bold">Marcos S.</h4>
+                        <p class="text-xs text-slate-500">
+                          Recuperación de Burnout
+                        </p>
+                      </div>
+                    </div>
+                    <p class="text-slate-600 dark:text-slate-400 italic">
+                      "El enfoque práctico y científico me ayudó a poner límites
+                      en el trabajo que no sabía que necesitaba. Altamente
+                      recomendable."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="lg:w-1/2 bg-primary/5 rounded-3xl p-10 border border-primary/10"
+              >
+                <h3 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary"
+                    >monitoring</span
+                  >
+                  Caso de Éxito: Progresión Mental
+                </h3>
+                <div class="space-y-8">
+                  <div class="relative pl-8 border-l-2 border-primary/20">
+                    <div
+                      class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-red-400 border-4 border-white dark:border-slate-900"
+                    ></div>
+                    <h4 class="font-bold text-slate-900 dark:text-slate-100">
+                      Antes (Mes 0)
+                    </h4>
+                    <p class="text-sm text-slate-500">
+                      Insomnio recurrente, ataques de pánico semanales,
+                      incapacidad para concentrarse, aislamiento social severo.
+                    </p>
+                  </div>
+                  <div class="relative pl-8 border-l-2 border-primary/20">
+                    <div
+                      class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-yellow-400 border-4 border-white dark:border-slate-900"
+                    ></div>
+                    <h4 class="font-bold text-slate-900 dark:text-slate-100">
+                      Transición (Mes 2)
+                    </h4>
+                    <p class="text-sm text-slate-500">
+                      Identificación de disparadores, reducción de síntomas
+                      físicos en un 60%, inicio de técnicas de meditación
+                      guiada.
+                    </p>
+                  </div>
+                  <div class="relative pl-8 border-l-2 border-primary/20">
+                    <div
+                      class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 border-4 border-white dark:border-slate-900"
+                    ></div>
+                    <h4 class="font-bold text-slate-900 dark:text-slate-100">
+                      Hoy (Mes 5)
+                    </h4>
+                    <p class="text-sm text-slate-500 font-medium">
+                      Sueño reparador, gestión autónoma del estrés, retorno
+                      exitoso a la actividad social y laboral.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- The Offer -->
+        <section
+          class="py-24 bg-slate-900 text-white overflow-hidden relative"
+          id="precios"
+        >
+          <div
+            class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/3 w-96 h-96 bg-primary/20 blur-[120px] rounded-full"
+          ></div>
+          <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+              <div>
+                <h2 class="text-4xl lg:text-5xl font-extrabold mb-6">
+                  Tu bienestar no es un gasto, es una
+                  <span class="text-primary">inversión</span>
+                </h2>
+                <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                  Ofrecemos un plan de acompañamiento integral adaptado a tus
+                  necesidades. Sin permanencia, con transparencia absoluta.
+                </p>
+                <ul class="space-y-4 mb-10">
+                  <li class="flex items-center gap-3">
+                    <span class="material-symbols-outlined text-green-400"
+                      >check_circle</span
+                    >
+                    <span
+                      >Terapia Cognitivo-Conductual (CBT) de vanguardia</span
+                    >
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <span class="material-symbols-outlined text-green-400"
+                      >check_circle</span
+                    >
+                    <span>Sesiones de 60 minutos (Online o Presencial)</span>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <span class="material-symbols-outlined text-green-400"
+                      >check_circle</span
+                    >
+                    <span>Material de apoyo y ejercicios entre sesiones</span>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <span class="material-symbols-outlined text-green-400"
+                      >check_circle</span
+                    >
+                    <span>Contacto directo por WhatsApp para emergencias</span>
+                  </li>
+                </ul>
+                <div
+                  class="flex items-center gap-6 p-4 rounded-xl bg-white/5 border border-white/10 w-fit"
+                >
+                  <span class="material-symbols-outlined text-3xl text-primary"
+                    >verified_user</span
+                  >
+                  <div>
+                    <p class="font-bold">Garantía de Satisfacción</p>
+                    <p class="text-xs text-slate-400">
+                      Si no conectas con tu terapeuta en la 1ª sesión, te
+                      devolvemos el importe.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="bg-white text-slate-900 rounded-3xl p-10 shadow-2xl relative"
+              >
+                <div
+                  class="absolute -top-4 right-10 bg-primary text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest"
+                >
+                  Más Popular
+                </div>
+                <h3 class="text-2xl font-bold mb-2">Sesión Individual</h3>
+                <div class="flex items-baseline gap-1 mb-6">
+                  <span class="text-sm font-medium text-slate-500">Desde</span>
+                  <span class="text-5xl font-black text-primary">55€</span>
+                  <span class="text-sm font-medium text-slate-500"
+                    >/sesión</span
+                  >
+                </div>
+                <div
+                  class="p-4 bg-primary/5 rounded-xl mb-8 border border-primary/10"
+                >
+                  <p
+                    class="text-sm font-bold text-primary flex items-center gap-2"
+                  >
+                    <span class="material-symbols-outlined text-sm"
+                      >redeem</span
+                    >
+                    ¡BONUS INCLUIDO!
+                  </p>
+                  <p class="text-sm text-slate-600 mt-1">
+                    Guía PDF "Primeros pasos contra el estrés" (Valorada en 25€)
+                  </p>
+                </div>
+                <div class="space-y-4 text-sm text-slate-600 mb-8">
+                  <div
+                    class="flex justify-between border-b border-slate-100 pb-2"
+                  >
+                    <span>Diagnóstico Inicial</span>
+                    <span class="font-bold text-green-600">Gratis</span>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-slate-100 pb-2"
+                  >
+                    <span>Tiempo de Respuesta</span>
+                    <span class="font-bold">&lt; 24 horas</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span>Modalidad</span>
+                    <span class="font-bold">Flexible</span>
+                  </div>
+                </div>
+                <a
+                  class="block w-full text-center py-4 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg shadow-primary/20"
+                  href="#contacto"
+                >
+                  Reservar mi Diagnóstico Gratis
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Form -->
+        <section
+          class="py-24 bg-background-light dark:bg-background-dark"
+          id="contacto"
+        >
+          <div class="max-w-4xl mx-auto px-6">
+            <div
+              class="bg-white dark:bg-slate-800 rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row"
+            >
+              <div class="md:w-1/3 bg-primary p-10 text-white">
+                <h3 class="text-2xl font-bold mb-6">Cuéntanos tu caso</h3>
+                <p class="text-white/80 text-sm mb-10 leading-relaxed">
+                  Estamos aquí para escucharte sin juicios. Completa el
+                  formulario y nos pondremos en contacto contigo lo antes
+                  posible.
+                </p>
+                <div class="space-y-6">
+                  <div class="flex items-center gap-4">
+                    <span class="material-symbols-outlined">mail</span>
+                    <span class="text-sm">hola@mindpaz.com</span>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <span class="material-symbols-outlined">call</span>
+                    <span class="text-sm">+34 900 000 000</span>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <span class="material-symbols-outlined">location_on</span>
+                    <span class="text-sm" data-location="Madrid, Spain"
+                      >Madrid, España</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="md:w-2/3 p-10">
+                <form action="#" class="grid grid-cols-1 gap-6" method="POST">
+                  <div>
+                    <label
+                      class="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2"
+                      >Nombre completo</label
+                    >
+                    <input
+                      class="w-full rounded-xl border-slate-200 dark:border-slate-700 dark:bg-slate-900 focus:border-primary focus:ring-primary"
+                      placeholder="Ej. Juan Pérez"
+                      type="text"
+                    />
+                  </div>
+                  <div>
+                    <label
+                      class="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2"
+                      >Correo electrónico</label
+                    >
+                    <input
+                      class="w-full rounded-xl border-slate-200 dark:border-slate-700 dark:bg-slate-900 focus:border-primary focus:ring-primary"
+                      placeholder="juan@ejemplo.com"
+                      type="email"
+                    />
+                  </div>
+                  <div>
+                    <label
+                      class="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2"
+                      >Servicio de interés</label
+                    >
+                    <select
+                      class="w-full rounded-xl border-slate-200 dark:border-slate-700 dark:bg-slate-900 focus:border-primary focus:ring-primary"
+                    >
+                      <option>Ansiedad y Estrés</option>
+                      <option>Burnout Laboral</option>
+                      <option>Problemas de Pareja</option>
+                      <option>Terapia de Duelo</option>
+                      <option>Otro motivo</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label
+                      class="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2"
+                      >Mensaje breve (opcional)</label
+                    >
+                    <textarea
+                      class="w-full rounded-xl border-slate-200 dark:border-slate-700 dark:bg-slate-900 focus:border-primary focus:ring-primary"
+                      placeholder="¿Cómo podemos ayudarte?"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <button
+                    class="w-full py-4 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg"
+                    type="submit"
+                  >
+                    Enviar solicitud
+                  </button>
+                  <p class="text-[10px] text-slate-400 text-center">
+                    Tus datos están protegidos por el secreto profesional y la
+                    LOPD.
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- FAQ Section -->
+        <section class="py-24" id="faq">
+          <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-center mb-16">
+              Preguntas frecuentes
+            </h2>
+            <div class="space-y-4">
+              <details
+                class="group bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 open:shadow-md transition-all"
+              >
+                <summary
+                  class="flex items-center justify-between p-6 cursor-pointer list-none"
+                >
+                  <span class="font-bold"
+                    >¿Cuánto dura cada sesión de terapia?</span
+                  >
+                  <span
+                    class="material-symbols-outlined group-open:rotate-180 transition-transform"
+                    >expand_more</span
+                  >
+                </summary>
+                <div
+                  class="px-6 pb-6 text-slate-600 dark:text-slate-400 text-sm leading-relaxed"
+                >
+                  Nuestras sesiones individuales tienen una duración estándar de
+                  60 minutos, lo que permite profundizar en el trabajo emocional
+                  sin prisas pero manteniendo el enfoque terapéutico.
+                </div>
+              </details>
+              <details
+                class="group bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 open:shadow-md transition-all"
+              >
+                <summary
+                  class="flex items-center justify-between p-6 cursor-pointer list-none"
+                >
+                  <span class="font-bold">¿Es efectiva la terapia online?</span>
+                  <span
+                    class="material-symbols-outlined group-open:rotate-180 transition-transform"
+                    >expand_more</span
+                  >
+                </summary>
+                <div
+                  class="px-6 pb-6 text-slate-600 dark:text-slate-400 text-sm leading-relaxed"
+                >
+                  Absolutamente. Numerosos estudios científicos demuestran que
+                  la eficacia de la terapia online es idéntica a la presencial
+                  en casos de ansiedad, depresión y estrés, con la ventaja de la
+                  comodidad y flexibilidad horaria.
+                </div>
+              </details>
+              <details
+                class="group bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 open:shadow-md transition-all"
+              >
+                <summary
+                  class="flex items-center justify-between p-6 cursor-pointer list-none"
+                >
+                  <span class="font-bold"
+                    >¿Necesito estar "muy mal" para ir a terapia?</span
+                  >
+                  <span
+                    class="material-symbols-outlined group-open:rotate-180 transition-transform"
+                    >expand_more</span
+                  >
+                </summary>
+                <div
+                  class="px-6 pb-6 text-slate-600 dark:text-slate-400 text-sm leading-relaxed"
+                >
+                  Para nada. La terapia es también una herramienta de
+                  crecimiento personal y prevención. Trabajar en tu
+                  autoconocimiento cuando estás bien te ayuda a tener más
+                  resiliencia ante futuros retos.
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+        <!-- Final CTA -->
+        <section class="py-20">
+          <div class="max-w-4xl mx-auto px-6 text-center">
+            <div
+              class="bg-primary rounded-[2rem] p-12 lg:p-20 text-white shadow-2xl relative overflow-hidden"
+            >
+              <div
+                class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"
+              ></div>
+              <div class="relative z-10">
+                <h2 class="text-4xl lg:text-5xl font-extrabold mb-6">
+                  Da hoy el primer paso hacia una vida más plena
+                </h2>
+                <p class="text-white/80 text-lg mb-10 max-w-2xl mx-auto">
+                  No esperes a que el problema crezca. Agenda tu diagnóstico
+                  gratuito y descubre cómo la psicología puede transformar tu
+                  día a día.
+                </p>
+                <a
+                  class="inline-flex items-center gap-3 px-10 py-5 bg-white text-primary font-bold rounded-2xl text-xl hover:bg-slate-50 transition-all hover:scale-105"
+                  href="#contacto"
+                >
+                  <span class="material-symbols-outlined">calendar_month</span>
+                  Reservar Cita Ahora
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer
+        class="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-12"
+      >
+        <div class="max-w-7xl mx-auto px-6">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center gap-8"
+          >
+            <div class="flex items-center gap-2 text-primary">
+              <span class="material-symbols-outlined text-2xl">psychology</span>
+              <span class="text-lg font-extrabold tracking-tight">MindPaz</span>
+            </div>
+            <div class="flex gap-8 text-sm font-medium text-slate-500">
+              <a class="hover:text-primary" href="#">Aviso Legal</a>
+              <a class="hover:text-primary" href="#">Privacidad</a>
+              <a class="hover:text-primary" href="#">Cookies</a>
+            </div>
+            <div class="flex gap-4">
+              <a
+                class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-slate-600 hover:bg-primary hover:text-white transition-colors"
+                href="#"
+              >
+                <span class="material-symbols-outlined text-xl">share</span>
+              </a>
+              <a
+                class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-slate-600 hover:bg-primary hover:text-white transition-colors"
+                href="#"
+              >
+                <span class="material-symbols-outlined text-xl"
+                  >contact_support</span
+                >
+              </a>
+            </div>
+          </div>
+          <div
+            class="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-xs text-slate-400"
+          >
+            © 2024 MindPaz Psicología. Todos los derechos reservados.
+            Profesionales colegiados por el COP.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
